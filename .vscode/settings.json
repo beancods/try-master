@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "math.h": "c",
+        "iostream": "cpp",
+        "ostream": "cpp",
+        "cmath": "c",
+        "algorithm": "c",
+        "*.tcc": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Enabled"
+}
