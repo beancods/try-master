@@ -446,33 +446,26 @@ using namespace std;
     //     cout<<"additon = "<<num;
     //     return 0;
     // }
-    int area()
-    {
-        int r;
-        cin>>r;
-        float pi=3.14;
-        float areaofcir=2*pi*r;
-        return areaofcir;
-    }
-    int area(int r,float pi)
-    {
-        float ar=2*pi*r;
-        return ar;
-    }
-    int main()
-    {
-        int x;
-        cout<<"enter the radius = ";
-        cin>>x;
-        float y=3.14;
-        cout<<"area of circle = "<<area(x,y);
-        return 0;
-    }
-
-
-
-
-    int main()
-    {
-        return 0;
-    }
+    // int area()
+    // {
+    //     int r;
+    //     cin>>r;
+    //     float pi=3.14;
+    //     float areaofcir=2*pi*r;
+    //     return areaofcir;
+    // }
+    // int area(int r,float pi)
+    // {
+    //     float ar=2*pi*r;
+    //     return ar;
+    // }
+    // int main()
+    // {
+    //     int x;
+    //     cout<<"enter the radius = ";
+    //     cin>>x;
+    //     float y=3.14;
+    //     cout<<"area of circle = "<<area(x,y);
+    //     return 0;
+    // }
+    
