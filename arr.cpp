@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+
                                                 // FIND GR IN 5 CLASIC WAY 
 // class Demo
 // {
