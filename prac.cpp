@@ -29,25 +29,49 @@ using namespace std;
 //     return 0;
 //  }
 
+    // int main()
+    // {
+    //     vector<int> r(6);
+    //     for(int i = 0;i<r.size();i++)
+    //     {
+    //         cin>>r[i];
+    //     }
+    //     int occrance=0;
+    //     int ele;
+    //     cout<<"enter the one sanme no : ";
+    //     cin>>ele;
+    //     int count;
+    //     for(int x:r)
+    //     {
+    //         if(x==ele)
+    //         {
+    //             occrance++;
+    //         }
+    //     }
+        
+    //     cout<<"occrance = "<<occrance<<endl;
+    //     return 0;
+    // }
+
     int main()
     {
-        vector<int> r(6);
-        for(int i = 0;i<6;i++)
+        vector<int> v(15);
+        for(int i=0;i<v.size();i++)
         {
-            cin>>r[i];
+            cin>>v[i];
         }
-        int occrance=0;
-        int ele;
-        cout<<"enter the one sanme no : ";
-        cin>>ele;
-        for(int i = 0;i<r.size();i++)
+        int count=0;
+        int x;
+        cout<<"enter no more than you want  : ";
+        cin>>x;
+        for(int ele:v)
         {
-            if(r[i]==ele)
+            if(x<ele)
             {
-                occrance=i;
-                break;
+                count++;
             }
-            
-        }cout<<"occrance = "<<occrance<<endl;
+        }
+        cout<<"large no : "<<count<<endl;
+
         return 0;
     }
